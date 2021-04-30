@@ -1,0 +1,231 @@
+inventories:
+  main:
+    title: "&8Main Menu"
+    size: 27
+    items:
+      border:
+        material: BLACK_STAINED_GLASS_PANE
+        name: "&f "
+        slots:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+          - 6
+          - 7
+          - 8
+          - 18
+          - 19
+          - 20
+          - 21
+          - 22
+          - 23
+          - 24
+          - 25
+          - 26
+      easy:
+        material: LIME_STAINED_GLASS
+        name: "&a&lEASY&a Levels"
+        lore:
+          - ""
+          - "&7Click to open"
+        slot: 10
+      normal:
+        material: GREEN_STAINED_GLASS
+        name: "&2&lNORMAL&2 Levels"
+        lore:
+          - ""
+          - "&7Click to open"
+        slot: 12
+      medium:
+        material: ORANGE_STAINED_GLASS
+        name: "&6&lMEDIUM&6 Levels"
+        lore:
+          - ""
+          - "&7Click to open"
+        slot: 14
+      hard:
+        material: RED_STAINED_GLASS
+        name: "&cHARD&c Levels"
+        lore:
+          - ""
+          - "&7Click to open"
+        slot: 16
+  mapCategorySelection:
+    title: "&8Category Selection"
+    size: 27
+    items:
+      border:
+        material: BLACK_STAINED_GLASS_PANE
+        name: "&f "
+        slots:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+          - 6
+          - 7
+          - 8
+          - 18
+          - 19
+          - 20
+          - 21
+          - 22
+          - 23
+          - 24
+          - 25
+          - 26
+      easy:
+        material: LIME_STAINED_GLASS
+        name: "&a&lEasy"
+        lore:
+          - "&f"
+          - "&7Click to select!"
+        slot: 10
+      normal:
+        material: GREEN_STAINED_GLASS
+        name: "&2&lNormal"
+        lore:
+          - "&f"
+          - "&7Click to select!"
+        slot: 12
+      medium:
+        material: ORANGE_STAINED_GLASS
+        name: "&6&lMedium"
+        lore:
+          - "&f"
+          - "&7Click to select!"
+        slot: 14
+      hard:
+        material: RED_STAINED_GLASS
+        name: "&c&lHard"
+        lore:
+          - "&f"
+          - "&7Click to select!"
+        slot: 16
+  mapCreatorsList:
+    title: "&8Creators List"
+    size: 27
+    items:
+      border:
+        material: BLACK_STAINED_GLASS_PANE
+        name: "&f "
+        slots:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+          - 6
+          - 7
+          - 8
+          - 18
+          - 19
+          - 20
+          - 21
+          - 23
+          - 24
+          - 25
+          - 26
+      addCreator:
+        material: PLAYER_HEAD
+        name: "&aAdd Creator"
+        texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA1NmJjMTI0NGZjZmY5OTM0NGYxMmFiYTQyYWMyM2ZlZTZlZjZlMzM1MWQyN2QyNzNjMTU3MjUzMWYifX19
+        slot: 22
+      creators:
+        name: "&e%name%"
+        slots:
+          - 9
+          - 10
+          - 11
+          - 12
+          - 13
+          - 14
+          - 15
+          - 16
+          - 17
+  locationCheckpointList:
+    title: "Checkpoint Menu"
+    size: 45
+    items:
+      checkpoints:
+        material: ENDER_PEARL
+        name: "&6Checkpoint"
+        lore:
+          - ""
+          - "&eLocation:"
+          - "  &eWorld: %world%"
+          - "  &eX: %x%"
+          - "  &eY: %y%"
+          - "  &eZ: %z%"
+          - "  &eYaw: %yaw%"
+          - "  &ePitch: %pitch%"
+        slots:
+          - 9
+          - 10
+          - 11
+          - 12
+          - 13
+          - 14
+          - 15
+          - 16
+          - 17
+      border:
+        material: BLACK_STAINED_GLASS_PANE
+        name: "&f "
+        slots:
+          - 0
+          - 1
+          - 2
+          - 3
+          - 4
+          - 5
+          - 6
+          - 7
+          - 8
+  categoryMenus:
+    easy:
+      title: "&8Easy Levels"
+      size: 45
+      items:
+        border:
+          material: BLACK_STAINED_GLASS_PANE
+          name: "&f "
+          slots:
+            - 0
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+        levels:
+          material: PAPER
+          name: "&eLevel &6%name%"
+          lore:
+            - ""
+            - "&eCreators:"
+            - "&7- &f%creator-1%"
+            - "&7- &f%creator-2%"
+            - "&7- &f%creator-3%"
+            - "&7- &f%creator-4%"
+            - "&7- &f%creator-5%"
+            - ""
+            - "&6[Click]&f to join!"
+          slots:
+            - 9
+            - 10
+            - 11
+            - 12
+            - 13
+            - 14
+            - 15
+            - 16
+            - 17

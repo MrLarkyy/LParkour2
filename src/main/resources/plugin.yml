@@ -1,0 +1,8 @@
+name: LParkour2
+version: ${project.version}
+main: cz.larkyy.lparkour2.LParkour2
+api-version: 1.13
+commands:
+  lparkour:
+    aliases: [parkour]
+    description: Parkour Core Plugin
